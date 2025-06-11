@@ -3,3 +3,9 @@ name: wind-up-smarteole
 title: Analyzing the SMARTEOLE dataset with wind-up
 description:
 git_repo_url: https://github.com/petebachant/wind-up-smarteole
+environments:
+  wind-up:
+    path: requirements.txt
+    kind: uv-venv
+    prefix: .venv
+    python: '3.13'
